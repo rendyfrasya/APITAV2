@@ -3,7 +3,7 @@ const db = mysql.createConnection({
   host: "localhost",
   user: "lilserv",
   password: "rendyfw666",
-  database: "db_ta",
+  database: "mqtt_API",
 });
 
 db.connect(function (error) {
